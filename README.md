@@ -14,7 +14,9 @@ Checks the level of your cistern using various possible sensors (Ultrasound, ToF
 
 ## Supported displays
 
-
+- LCD '1602'
+- LCD '1604, 2004'
+- OLED 'SSD 1106, 1306'
 
 ## Use own api
 

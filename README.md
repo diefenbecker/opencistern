@@ -21,7 +21,7 @@ Selection of different cistern shapes (cylinder, square, horizontal, standing) w
 
 ## Wiring
 
-![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/anschluss_vl53l0x.webp?raw=true)
+
 
 ## Use own api
 

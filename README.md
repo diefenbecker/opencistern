@@ -18,7 +18,7 @@ Checks the level of your cistern using various possible sensors (Ultrasound, ToF
 
 ## Use own api
 
-The measured data can be sent to your own interface via http post. A configurable URL is called and the values for the distance and the level in the variables are _abstand and _fuellstand transferred. Example: <server>:<port>/<pfad>?abs=_abstand&hoehe=_fuellstand
+The measured data can be sent to your own interface via http post. A configurable URL is called and the values for the distance and the level in the variables are _abstand and _fuellstand transferred. Example: /<server/>:<port>/<pfad>?abs=_abstand&hoehe=_fuellstand
 
 ## Use bubux api
 

@@ -2,6 +2,19 @@
 Checks the level of your cistern using various possible sensors (Ultrasound, ToF)
 
 
+## Supported distance sensors
+
+- HC-SR04
+- VL53L0X
+- VL53L1X
+
+## Supported temperature (humidity) sensors
+
+- DHT22-Sensor
+
+
+
+
 
 ![Startpage](https://github.com/diefenbecker/zisternenmessung/blob/main/startseite.PNG?raw=true)
 

@@ -33,6 +33,8 @@ With /json behind the URL of the sensor, the measured values can be queried via 
 ![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/json.PNG?raw=true)
   
 
+## Screenshots of the webinterface with it´s configuration page
+
 ![Startpage](https://github.com/diefenbecker/zisternenmessung/blob/main/startseite.PNG?raw=true)
 
 ![Configuration page (1)](https://github.com/diefenbecker/zisternenmessung/blob/main/konfig1.PNG?raw=true)

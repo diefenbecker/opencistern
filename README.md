@@ -18,6 +18,11 @@ Selection of different cistern shapes (cylinder, square, horizontal, standing) w
 - LCD '1604, 2004'
 - OLED 'SSD 1106, 1306'
 
+
+## Wiring
+
+![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/anschluss_vl53l0x.webp?raw=true)
+
 ## Use own api
 
 The measured data can be sent to your own interface via http post. A configurable URL is called and the values for the distance and the level in the variables are _abstand and _fuellstand transferred. Example: http://server:port/path_to_own_api?abs=_abstand&hoehe=_fuellstand

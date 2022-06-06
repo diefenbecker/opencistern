@@ -29,6 +29,7 @@ With the WebAPI, the data (level, MAC address, local IP and firmware version) is
 ## JSON
   
 With /json behind the URL of the sensor, the measured values can be queried via JSON. For example, 192.168.178.49/json.
+
 ![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/json.PNG?raw=true)
   
 

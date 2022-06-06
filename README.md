@@ -1,6 +1,6 @@
 # zisternenmessung
-Checks the level of your cistern using various possible sensors (Ultrasound, ToF)
-
+Checks the level of your cistern using various possible sensors (Ultrasound, ToF). 
+Selection of different cistern shapes (cylinder, square, horizontal, standing) with calculation of the volume. The measured values are output on a separate website (ESP8266), via MQTT to your own MQTT broker or via http to your own web interface. In addition, it is possible to prepare the data on ww.bubux.de.
 
 ## Supported distance sensors
 

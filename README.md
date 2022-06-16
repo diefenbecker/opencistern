@@ -38,6 +38,8 @@ The measured data can be sent to your own interface via http post. A configurabl
 
 With the WebAPI, the data (level, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the cistern level of the last 30 days is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
 
+![Statistik](https://github.com/diefenbecker/zisternenmessung/blob/main/stats.PNG?raw=true)
+
 ## Latest version already compiled
 
 Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
@@ -54,6 +56,12 @@ Send the measured data to an MQTT broker
 
 ![MQTT Konfig](https://github.com/diefenbecker/zisternenmessung/blob/main/mqtt.PNG?raw=true)
 
+
+## Switchable output
+
+The software supports a switchable output to D4 depending on a configurable minimum and maximum level
+
+![Relausausgang](https://github.com/diefenbecker/zisternenmessung/blob/main/relais.PNG?raw=true)
 
 ## Used libraries
 
@@ -80,7 +88,9 @@ Send the measured data to an MQTT broker
 
 ## Donation
 
-To support this project 
+To support this project, feel free to make a small donation. The donations go to the foundation "Bärenherz" in Wiesbaden (https://www.baerenherz.de/de/)
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=2GUA7DMLQRAUY)
 
 ## Some screenshots of the webinterface with it´s configuration page
 

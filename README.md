@@ -30,6 +30,10 @@ Planned:
 The ToF sensors are also connected to D1/D2 as an alternative to the ultrasonic sensor.
 On the picture the pin D4 for the switchable output e.g. for a relay is missing.
 
+## Latest version already compiled
+
+Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
+
 ## Use own api
 
 The measured data can be sent to your own interface via http post. A configurable URL is called and the values for the distance and the level in the variables are _abstand and _fuellstand transferred. Example: http://server:port/path_to_own_api?abs=_abstand&hoehe=_fuellstand
@@ -39,10 +43,6 @@ The measured data can be sent to your own interface via http post. A configurabl
 With the WebAPI, the data (level, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the cistern level of the last 30 days is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
 
 ![Statistik](https://github.com/diefenbecker/zisternenmessung/blob/main/stats.PNG?raw=true)
-
-## Latest version already compiled
-
-Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
 
 ## JSON
   

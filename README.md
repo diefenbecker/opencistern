@@ -1,6 +1,6 @@
 # zisternenmessung
 Checks the level of your cistern using various possible sensors (Ultrasound, ToF). 
-Selection of different cistern shapes (cylinder, square, horizontal, standing) with calculation of the volume. The measured values are output on a separate website (ESP8266), via MQTT to your own MQTT broker or via http to your own web interface. In addition, it is possible to prepare the data on ww.bubux.de.
+Selection of different cistern shapes (cylinder, square, horizontal, standing) with calculation of the volume. The measured values are output on a separate website, can be send via MQTT to your own MQTT broker or via http to your own interface. In addition, it is possible to prepare the data on ww.bubux.de.
 
 ## Supported distance sensors
 
@@ -21,7 +21,10 @@ Selection of different cistern shapes (cylinder, square, horizontal, standing) w
 
 ## Wiring
 
+![Anschluss](https://github.com/diefenbecker/zisternenmessung/blob/main/wiring.PNG?raw=true)
 
+The ToF sensors are also connected to D1/D2 as an alternative to the ultrasonic sensor.
+On the picture the pin D4 for the switchable output e.g. for a relay is missing.
 
 ## Use own api
 
@@ -30,7 +33,12 @@ The measured data can be sent to your own interface via http post. A configurabl
 ## Use bubux api
 
 With the WebAPI, the data (level, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the cistern level of the last 30 days is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
-  
+
+
+## Latest version already compiled
+
+Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
+
 ## JSON
   
 With /json behind the URL of the sensor, the measured values can be queried via JSON. For example, 192.168.178.49/json.

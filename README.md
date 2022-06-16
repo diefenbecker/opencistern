@@ -1,6 +1,6 @@
 # zisternenmessung
-Checks the level of your cistern using various possible sensors (Ultrasound, ToF). 
-Selection of different cistern shapes (cylinder, square, horizontal, standing) with calculation of the volume. The measured values are output on a separate website, can be send via MQTT to your own MQTT broker or via http to your own interface. In addition, it is possible to prepare the data on ww.bubux.de.
+Checks the level of your cistern using an ESP8266 with various possible distance sensors (Ultrasound, ToF). 
+There is a selection of different cistern shapes (cylinder, square, horizontal, standing) with calculation of the volume. The measured values are output on a separate website (without Homeautomation central), data can be send via MQTT to your own MQTT broker or via HTTP to an own interface. In addition, it is possible to let prepare the data on www.bubux.de
 
 ## Supported distance sensors
 
@@ -11,6 +11,10 @@ Selection of different cistern shapes (cylinder, square, horizontal, standing) w
 ## Supported temperature (humidity) sensors
 
 - DHT22-Sensor
+
+Planned:
+- BME280
+- DS18B20
 
 ## Supported displays
 
@@ -34,7 +38,6 @@ The measured data can be sent to your own interface via http post. A configurabl
 
 With the WebAPI, the data (level, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the cistern level of the last 30 days is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
 
-
 ## Latest version already compiled
 
 Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
@@ -52,7 +55,34 @@ Send the measured data to an MQTT broker
 ![MQTT Konfig](https://github.com/diefenbecker/zisternenmessung/blob/main/mqtt.PNG?raw=true)
 
 
-## Screenshots of the webinterface with it´s configuration page
+## Used libraries
+
+- ESP8266WiFi.h
+- ESP8266mDNS.h
+- ESP8266WebServer.h
+- WiFiClient.h
+- Ticker.h
+- EEPROM.h
+- ESP8266HTTPClient.h
+- ESP8266httpUpdate.h
+- LiquidCrystal_I2C.h
+- ss_oled.h
+- Wire.h
+- PubSubClient.h
+- NTPClient.h
+- WiFiUdp.h
+- SimpleTimer.h
+- Pushover.h
+- myTypes.h
+- DHT.h
+- VL53L0X.h (Pololu)
+- SparkFun_VL53L1X.h
+
+## Donation
+
+To support this project 
+
+## Some screenshots of the webinterface with it´s configuration page
 
 ![Startpage](https://github.com/diefenbecker/zisternenmessung/blob/main/startseite.PNG?raw=true)
 

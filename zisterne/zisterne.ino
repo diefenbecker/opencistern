@@ -152,7 +152,7 @@ unsigned long currentMillisDisplay;
 //********************************************************
 // Grundsätzliche Einstellungen
 //********************************************************
-const int fw_version = 1030;
+const int fw_version = 1031;
 String anwendungsname = "Zisternenf&uuml;llstand";
 String apSSID = "WLAN-Zisterne";
 const int cfgStart = 0;

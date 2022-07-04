@@ -49,6 +49,11 @@ The sensor then restarts and attempts to connect to the home WLAN. If this was s
 If the "WLAN cistern" access point is still visible, the connection to the home WLAN was not successful. Then carry out the above steps again.
 
 
+## More information
+
+More information about installation etc. can be found on http://blog.bubux.de/fuellstandmessung-der-zisterne-mittels-esp8266-nodemcu-und-ultraschallsensor/. There are several articles that deal with the topic.
+
+
 ## Use own api
 
 The measured data can be sent to your own interface via http post. A configurable URL is called and the values for the distance and the level in the variables are _abstand and _fuellstand transferred. Example: http://server:port/path_to_own_api?abs=_abstand&hoehe=_fuellstand

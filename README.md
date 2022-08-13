@@ -32,7 +32,7 @@ On the picture the pin D4 for the switchable output e.g. for a relay is missing.
 
 ## Latest version already compiled
 
-Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/zisterne_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
+Find here ![Version 1030](https://github.com/diefenbecker/zisternenmessung/blob/main/opencistern_1030.bin?raw=true) a already compiled version tested with NodeMCU and Wemos D1 mini
 
 ## Start-Up
 
@@ -57,26 +57,26 @@ The measured data can be sent to your own interface via http post. A configurabl
 
 With the WebAPI, the data (level, MAC address, local IP and firmware version) is sent to www.bubux.de where a graphical evaluation of the cistern level of the last 30 days is prepared. This evaluation can be accessed via a link in the web interface of the respective sensor. No central home automation is necessary here.
 
-![Statistik](https://github.com/diefenbecker/zisternenmessung/blob/main/stats.PNG?raw=true)
+![Statistik](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/stats.PNG?raw=true)
 
 ## JSON
   
 With /json behind the URL of the sensor, the measured values can be queried via JSON. For example, 192.168.178.49/json.
 
-![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/json.PNG?raw=true)
+![JSON example](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/json.PNG?raw=true)
   
 ## Use MQTT
 
 Send the measured data to an MQTT broker
 
-![MQTT Konfig](https://github.com/diefenbecker/zisternenmessung/blob/main/mqtt.PNG?raw=true)
+![MQTT Konfig](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/mqtt.PNG?raw=true)
 
 
 ## Switchable output
 
 The software supports a switchable output to D4 depending on a configurable minimum and maximum level
 
-![Relausausgang](https://github.com/diefenbecker/zisternenmessung/blob/main/relais.PNG?raw=true)
+![Relausausgang](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/relais.PNG?raw=true)
 
 ## Used libraries
 
@@ -111,16 +111,16 @@ To support this project, feel free to make a small donation. The donations go to
 
 Since the installation is individual depending on the cistern, I won't say much about it. I will only say that I packed the sensor into a surface-mounted box from the DIY store and "potted" it with hot glue. Resin would probably have been better, but the sensor works perfectly so far. The sensor hangs downwards on a board in the cistern. The NodeMCU is connected to a cable about 6m long and is housed in a small storage room.
 
-![Einbau1](https://github.com/diefenbecker/zisternenmessung/blob/main/einbau1.PNG?raw=true)
-![Einbau2](https://github.com/diefenbecker/zisternenmessung/blob/main/einbau2.PNG?raw=true)
-![EInbau3](https://github.com/diefenbecker/zisternenmessung/blob/main/einbau3.PNG?raw=true)
+![Einbau1](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/einbau1.PNG?raw=true)
+![Einbau2](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/einbau2.PNG?raw=true)
+![EInbau3](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/einbau3.PNG?raw=true)
 
 ## Some screenshots of the webinterface with it´s configuration page
 
-![Startpage](https://github.com/diefenbecker/zisternenmessung/blob/main/startseite.PNG?raw=true)
+![Startpage](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/startseite.PNG?raw=true)
 
-![Configuration page (1)](https://github.com/diefenbecker/zisternenmessung/blob/main/konfig1.PNG?raw=true)
+![Configuration page (1)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig1.PNG?raw=true)
 
-![Configuration page (2)](https://github.com/diefenbecker/zisternenmessung/blob/main/konfig2.PNG?raw=true)
+![Configuration page (2)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig2.PNG?raw=true)
 
-![Configuration page (3)](https://github.com/diefenbecker/zisternenmessung/blob/main/konfig3.PNG?raw=true)
+![Configuration page (3)](https://github.com/diefenbecker/zisternenmessung/blob/main/screenshots/konfig3.PNG?raw=true)

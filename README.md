@@ -93,18 +93,18 @@ The software supports a switchable output to D4 depending on a configurable mini
 - EEPROM.h
 - ESP8266HTTPClient.h
 - ESP8266httpUpdate.h
-- LiquidCrystal_I2C.h
-- ss_oled.h
+- LiquidCrystal_I2C.h (https://github.com/bitbank2/BitBang_I2C, https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+- ss_oled.h (https://github.com/bitbank2/ss_oled)
 - Wire.h
-- PubSubClient.h
-- NTPClient.h
+- PubSubClient.h (https://pubsubclient.knolleary.net/)
+- NTPClient.h (https://github.com/arduino-libraries/NTPClient)
 - WiFiUdp.h
-- SimpleTimer.h
-- Pushover.h
+- SimpleTimer.h (https://github.com/kiryanenko/SimpleTimer)
+- Pushover.h (https://github.com/ArduinoHannover/Pushover)
 - myTypes.h
-- DHT.h
-- VL53L0X.h (Pololu)
-- SparkFun_VL53L1X.h
+- DHT.h (https://github.com/adafruit/DHT-sensor-library)
+- VL53L0X.h (https://github.com/pololu/vl53l0x-arduino)
+- SparkFun_VL53L1X.h (https://github.com/sparkfun/SparkFun_VL53L1X_Arduino_Library)
 
 ## Donation
 

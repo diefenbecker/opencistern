@@ -88,14 +88,15 @@ The software supports a switchable output to D4 depending on a configurable mini
 - ESP8266WiFi.h
 - ESP8266mDNS.h
 - ESP8266WebServer.h
-- WiFiClient.h
-- Ticker.h
-- EEPROM.h
 - ESP8266HTTPClient.h
 - ESP8266httpUpdate.h
+- Ticker.h
+- EEPROM.h
+- Wire.h
+All libraries listed above are included in the ESP8266 core (https://github.com/esp8266/Arduino) . Currently it is mandatory to use version 2.4.7! This is done e.g. in the Borad-Manager of the Arduino IDE.
+
 - LiquidCrystal_I2C.h (https://github.com/bitbank2/BitBang_I2C, https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
 - ss_oled.h (https://github.com/bitbank2/ss_oled)
-- Wire.h
 - PubSubClient.h (https://pubsubclient.knolleary.net/)
 - NTPClient.h (https://github.com/arduino-libraries/NTPClient)
 - WiFiUdp.h
